@@ -3,7 +3,7 @@
 Translation web application using Translate Plus API
 
 
-<img src='Icons/webapp.png'/>
+<img src='./src/Images/webapp.png'/>
 
 ## Get Started
 
