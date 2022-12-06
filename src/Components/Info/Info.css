@@ -14,11 +14,3 @@
     font-size: 30px;
     margin-left: 10px;
 }
-
-.info-images {
-    display: flex;
-}
-
-img {
-    height: 440px;
-}

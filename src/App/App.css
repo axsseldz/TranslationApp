@@ -13,7 +13,7 @@
 
 
 .main-info-container {
-    height: 50vh;
+    height: 44vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,4 +28,5 @@
     height: 36vh;
     margin-top: 20px;
     padding: 20px;
+
 }
