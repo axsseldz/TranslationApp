@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { supportedLanguages } from '../../Data/Data';
-import { API_KEY } from '../../API/API';
+import { API_KEY } from '../../../API';
 import './InputField.css';
 
 
