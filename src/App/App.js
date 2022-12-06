@@ -1,12 +1,22 @@
+import Header from '../Components/Header/Header';
+import Info from '../Components/Info/Info';
 import InputField from '../Components/InputField/InputField';
 import './App.css';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <InputField />
+    <div className="App-container">
+      <header className='header-container'>
+        <Header />
+      </header>
+      <div className='main-info-container'>
+        <Info />
+      </div>
+      <div className='main-input-container'>
+        <InputField />
+      </div>
     </div>
   );
 }
 
-export default App;
+

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { supportedLanguages } from '../../Data/Data';
+import { API_KEY } from '../../API/API';
 import './InputField.css';
-
 
 
 
@@ -21,7 +21,7 @@ export default function InputField() {
     //             method: 'POST',
     //             headers: {
     //                 'content-type': 'application/json',
-    //                 'X-RapidAPI-Key': '0957dcdbd7msh97780f7aefda0a1p1bd9f5jsna3d6d9aa7656',
+    //                 'X-RapidAPI-Key': `${API_KEY}`,
     //                 'X-RapidAPI-Host': 'translate-plus.p.rapidapi.com'
     //             },
     //             body: `{"text":"${text}"}`
@@ -45,7 +45,7 @@ export default function InputField() {
     //             method: 'POST',
     //             headers: {
     //                 'content-type': 'application/json',
-    //                 'X-RapidAPI-Key': '0957dcdbd7msh97780f7aefda0a1p1bd9f5jsna3d6d9aa7656',
+    //                 'X-RapidAPI-Key': `${API_KEY}`,
     //                 'X-RapidAPI-Host': 'translate-plus.p.rapidapi.com'
     //             },
     //             body: `{"text":"${text}","source":"${lanSrc.language_detection.language}","target":"${languageCode}"}`
@@ -81,16 +81,10 @@ export default function InputField() {
     }
 
     return (
-        <div>
+        <div className='inputField-container'>
             <input
                 placeholder='Enter a Text'
                 onChange={(e) => setInputText(e.target.value)}
-            />
-            <button onClick={handleClick}>Translate</button>
-            <input
-                placeholder='Translated Text'
-                value={translatedText}
-                readOnly
             />
             <select onChange={handleChange}>
                 <option>Options...</option >
@@ -98,6 +92,12 @@ export default function InputField() {
                     return <option key={language.code} value={language.code}>{language.name}</option>
                 })}
             </select>
+            <input
+                placeholder='Translated Text'
+                value={translatedText}
+                readOnly
+            />
+            <button onClick={handleClick}>Translate</button>
         </div>
     )
 }

@@ -1,0 +1,42 @@
+.inputField-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+}
+
+input {
+    width: 30%;
+    height: 20%;
+    border-radius: 20px;
+    margin: 20px;
+    outline: none;
+    border: none;
+    background-color: rgba(45, 45, 45, 0.488);
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.632);
+    padding: 15px;
+}
+
+select {
+    width: 10%;
+    height: 13%;
+    border-radius: 15px;
+    outline: none;
+    background-color: #00bbe2;
+}
+
+button {
+    width: 10%;
+    height: 13%;
+    border-radius: 15px;
+    transition: 0.2s;
+    border: none;
+    background-color: #00bbe2;
+    box-shadow: 0 0 5px #00bbe2, 0 0 30px #00bbe2, 0 0 50px #00bbe2;
+}
+
+button:active {
+    transform: scale(0.8);
+}
