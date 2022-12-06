@@ -1,0 +1,24 @@
+.info-tittle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.info-tittle {
+    color: white;
+}
+
+.info-icon {
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.info-images {
+    display: flex;
+}
+
+img {
+    height: 440px;
+}
