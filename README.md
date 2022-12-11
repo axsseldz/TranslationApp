@@ -13,9 +13,10 @@ Catalan,                 Greek,       Latin,               Russian,
 Chinese (Simplified),    Croatian,    Hebrew,              Malay,            
 Chinese (Traditional),   Hindi,       Mongolian,           Swedish,
 Czech,                   Hungarian,   Myanmar (Burmese),   Turkish,
-Danish,                  Nepali,      Ukrainian,           Spanish,
+Danish,                  Nepali,      Ukrainian,           Spanish
 Dutch,                  
 
+##
 
 <img src='./src/Images/webapp.png'/>
 
